@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/_work/catalog/catalog/stable/local-ai/10.19.3",
-        "last_update": "2024-05-29 12:35:14",
+        "last_update": "2024-07-22 21:27:58",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",

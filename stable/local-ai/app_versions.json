@@ -1,9 +1,9 @@
 {
-    "10.19.2": {
+    "10.19.3": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/stable/local-ai/10.19.2",
+        "location": "/home/runner/_work/catalog/catalog/stable/local-ai/10.19.3",
         "last_update": "2024-05-29 12:35:14",
         "required_features": [
             "definitions/timezone",
@@ -11,8 +11,8 @@
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "2.16.0_10.19.2",
-        "version": "10.19.2",
+        "human_version": "2.16.0_10.19.3",
+        "version": "10.19.3",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "ai",
@@ -56,7 +56,7 @@
                 "https://hub.docker.com/r/localai/localai"
             ],
             "type": "application",
-            "version": "10.19.2"
+            "version": "10.19.3"
         },
         "app_metadata": null,
         "schema": {

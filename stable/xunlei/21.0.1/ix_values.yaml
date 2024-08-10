@@ -1,0 +1,34 @@
+image:
+  repository: cnk3x/xunlei
+  tag: 3.20.1@sha256:75fcbe07b3b48b71064ee94418f35dccddbe4103ff9ff6d82efc44930db9f215
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 32345
+        targetPort: 2345
+persistence:
+  config:
+    enabled: true
+    mountPath: "/xunlei/data"
+  downloads:
+    enabled: true
+    mountPath: "/xunlei/downloads"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            startup:
+              enabled: true
